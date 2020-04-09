@@ -1,0 +1,144 @@
+body{
+  font-family: 'Montserrat' , sans-serif;
+  text-align: center;
+}
+h2{
+  font-family: "Montserrat";
+  font-size: 2.7rem;
+  line-height: 1.5;
+}
+#title {
+  background-color: #ff4c68;
+  text-align: left;
+}
+.bigheader {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.7rem;
+  line-height: 1.5;
+  color: white;
+}
+.container-fluid{
+  padding:3% 10% 7%;
+
+}
+/* title image */
+.timage{
+  width: 60%;
+  transform: rotate(25deg);
+  left:12%;
+  position: absolute;
+
+}
+@media (max-width:1028px){
+  .timage{
+    position: static;
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+}
+/* navbar */
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.navbar-brand{
+  font-size: 2.5rem;
+  font-family: 'Ubuntu';
+}
+.nav-item{
+  padding: 0 18px 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+
+}
+/* download btn */
+.dbtn{
+  margin:5% 3% 5% 0;
+}
+/* features */
+#features{
+  padding: 7% 7%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+
+}
+.div{
+  display: inline-block;
+  padding: 5%;
+}
+.t3{
+  font-family: 'Montserrat';
+  font-size: 1.5rem;
+}
+.fp{
+  color:#8f8f8f;
+}
+.pic{
+  color: #ef8172;
+  margin-bottom: 5%;
+}
+.pic:hover{
+  color: #ff4c68;
+}
+/* testimonials */
+#testimonials{
+
+  background-color: #ef8172;
+  color:#fff;
+}
+.testpic{
+  width:15%;
+  border-radius: 50%;
+  margin: 20px;
+}
+ /* press  */
+ #press{
+   background-color: #ef8172;
+   padding-bottom: 4%;
+ }
+ .presspic{
+   width:16%;
+   margin: 20px 30px 40px;
+ }
+.carousel-item{
+    padding: 10% 13%;
+}
+/* pricing */
+#pricing{
+  padding: 6% 6%;
+}
+.price{
+  padding: 3% 2%;
+}
+/* cta */
+#cta{
+  padding: 5% 14%;
+  background-color: #ff4c68;
+}
+.slogan{
+  color: #fff;
+  line-height: 1.5;
+  font-size: 2.7rem;
+  margin-bottom: 1.7rem;
+}
+.downbtn{
+  margin: 1.8%;
+}
+/* footer */
+#footer{
+  padding:5% 10%;
+  color: #8f8f8f;
+}
+.ficon{
+  display: inline-block;
+  text-decoration: none;
+  margin: 1.5%;
+
+}
+.pre{
+  padding: 0;
+  margin: 0 0 2%;
+}
